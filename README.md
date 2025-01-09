@@ -38,6 +38,7 @@ The service uses a Python dictionary (`url_mapping`) to store mappings between s
     python app.py
     ```
 
+
 ## API Endpoints
 
 1. **Shorten URL:**
@@ -45,3 +46,8 @@ The service uses a Python dictionary (`url_mapping`) to store mappings between s
    - **Method:** `POST`
    - **Request Body:** `{ "url": "https://www.example.com" }`
    - **Response:** `{ "short_url": "http://localhost:5000/abc123" }`
+  
+2. **Run the tests:**  
+    ```
+    python tests.py
+    ```
